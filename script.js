@@ -13,7 +13,6 @@ fetch('data.json')
 function appendData(data)
 {
   var container = document.getElementById("displayData")
-  // var userContainer = document.getElementById("user")
 
   for (let i = 0; i < data.length; i++) 
   {
@@ -26,7 +25,6 @@ function appendData(data)
     nameDiv.classList.add("userField");
     ageDiv.classList.add("userField");
     colourDiv.classList.add("colourField");
-
 
     nameDiv.innerHTML = "Name: " + data[i].name;
     ageDiv.innerHTML = "Age: " + data[i].age;
