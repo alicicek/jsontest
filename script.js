@@ -41,3 +41,11 @@ function appendData(data)
 
 }
 
+function addInput()
+{
+  var name = document.getElementById("name").value;
+  var age = document.getElementById("age").value;
+  var colour = document.getElementById("colour").value;
+
+  console.log(name, age, colour);
+}
